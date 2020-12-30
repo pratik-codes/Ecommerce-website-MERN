@@ -20,6 +20,7 @@ An Real-time Scallable Ecommerce website made with React /  React-Router / Redux
 - Hero section and final design touch up with animations on the website.
 - Deployement on GCP.
 - Contact Page.
+- Working on the Admin MIS system orders section to have a functionality that allow him/her to allot the check sign for if the product is delivered and if it does the client can see a green sign with Delieverd in there profile and orders page also the admin can see if the orders are paid or not and the address and details related to the orders so he/she can dispatch the product..
 
 ### Original video with Good quality can be found here on [google drive.](https://drive.google.com/drive/folders/19f1LT38cqhAKhdhysRVBm8vJKlFqC-PU?usp=sharing)
 
