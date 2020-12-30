@@ -24,8 +24,8 @@ An Real-time Scallable Ecommerce website made with React /  React-Router / Redux
 
 ### Original video with Good quality can be found here on [google drive.](https://drive.google.com/drive/folders/19f1LT38cqhAKhdhysRVBm8vJKlFqC-PU?usp=sharing)
 
-## Client View:
+## Admin View:
 ![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN-Rajsolutions/blob/main/gifs/admin.gif)
 
-## Admin View:
+## Client View:
 ![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN-Rajsolutions/blob/main/gifs/client.gif)
