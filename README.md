@@ -9,6 +9,8 @@ An Real-time Scallable Ecommerce website made with React /  React-Router / Redux
 - User can add/remove products to/from the cart.
 - Authentication JWT with Web Token 
 - Admin authentication for admin view 
+- search functionality.
+- Paging for more than 8 products on a page.
 - Products fetched by Database in real-time (MongoDB)
 - Sessions maintained, if the user refreshes the page, the session will only be terminated only when log out is used.
 - User A's added product in the cart does not affect user B's cart status and vice versa (Multiple User sign up should be possible).
@@ -18,15 +20,11 @@ An Real-time Scallable Ecommerce website made with React /  React-Router / Redux
 
 
 ### Future update plans:
-- Hero section and final design touch up with animations on the website.
 - Deployement on GCP.
-- Contact Page.
-- Working on the Admin MIS system orders section to have a functionality that allow him/her to allot the check sign for if the product is delivered and if it does the client can see a green sign with Delieverd in there profile and orders page also the admin can see if the orders are paid or not and the address and details related to the orders so he/she can dispatch the product..
-
-### Original video with Good quality can be found here on [google drive.](https://drive.google.com/drive/folders/19f1LT38cqhAKhdhysRVBm8vJKlFqC-PU?usp=sharing)
-
-## Admin View:
-![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN-Rajsolutions/blob/main/gifs/admin.gif)
+- To add animation in the website
 
 ## Client View:
-![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN-Rajsolutions/blob/main/gifs/client.gif)
+![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN/blob/master/gifs/client-view.gif)
+
+## Admin View:
+![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN/blob/master/gifs/admin-view.gif)
