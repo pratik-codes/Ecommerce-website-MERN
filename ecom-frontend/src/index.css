@@ -1,0 +1,182 @@
+#root {
+  width: 100%;
+}
+
+body {
+  color: #555555;
+  overflow-x: hidden;
+}
+
+.hero > span {
+  color: black;
+  font-family: "optima";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.head {
+  color: black;
+  font-family: "optima";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.head-small {
+  color: black;
+  font-family: "optima";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.border-bottom {
+  border-bottom: #cdc9c3 solid 0.001rem;
+  padding-top: 10px;
+}
+.border-top {
+  border-top: #cdc9c3 solid 0.001rem;
+}
+
+.p-width {
+  width: 600px;
+}
+
+.pad {
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.hero > p {
+  padding-top: 20px;
+  border-top: #cdc9c3 solid 0.001rem;
+  margin-top: 50px;
+}
+
+p {
+  font-family: "optima";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5 0;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h5 {
+  padding: 5px 0;
+}
+
+.hero {
+  height: auto;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  margin-bottom: 5px;
+}
+
+.card-body {
+  padding: 10px 0;
+}
+
+.imgs {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.rating {
+  padding-top: 0;
+  font-size: 0.8rem;
+}
+
+.search {
+  width: 240px;
+  border-radius: 20px;
+  height: 35px;
+  border-color: black solid 1rem;
+}
+
+.search-btn {
+  color: white;
+  background-color: black;
+  font-size: small;
+  border-radius: 30px;
+}
+
+.search-btn:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+  transition: 0.5s;
+}
+
+.nav {
+  border-top: black solid 0.001rem;
+}
+
+.img {
+  height: 500px;
+  width: 500px;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: "optima";
+  src: url(fonts/OPTIMA.TTF);
+}
+
+@font-face {
+  font-family: "helve";
+  src: url(fonts/HelveticaNeueLTPro-Cn.otf);
+}
+
+footer {
+  border-top: #cdc9c3 solid 0.001rem;
+  height: 40px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .search-nav {
+    width: 50px;
+  }
+
+  .img {
+    display: none;
+  }
+  .hero {
+    height: auto;
+  }
+
+  .p-width {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .search {
+    width: 220px;
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "MERN",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ecom-backend/server",
+    "server": "nodemon ecom-backend/server ",
+    "client": "npm start --prefix ecom-frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node ecom-backend/seeder.js",
+    "data:destroy": "node ecom-backend/seeder.js -d"
+  },
+  "author": "Pratik Tiwari",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "graceful-fs": "^4.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "request": "^2.88.2",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.2.1"
+  }
+}
