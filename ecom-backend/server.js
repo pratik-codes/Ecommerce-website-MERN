@@ -23,10 +23,6 @@ if (process.env.NODE_ENV === "development") {
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send(" API is Running...");
-});
-
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/orders", orderRoutes);
@@ -37,6 +33,21 @@ app.get("/api/config/paypal", (req, res) =>
 );
 
 const __dirname = path.resolve();
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "/ecom-frontend/build")));
+
+  app.get("*", (req, res) =>
+    res.sendFile(
+      path.resolve(__dirname, "ecom-frontend", "build", "index.html")
+    )
+  );
+} else {
+  app.get("/", (req, res) => {
+    res.send(" API is Running...");
+  });
+}
+
 app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
 
 app.use(notFound);

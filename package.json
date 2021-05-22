@@ -10,7 +10,8 @@
     "client": "npm start --prefix ecom-frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node ecom-backend/seeder.js",
-    "data:destroy": "node ecom-backend/seeder.js -d"
+    "data:destroy": "node ecom-backend/seeder.js -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ecom-frontend && npm run build --prefix ecom-frontend"
   },
   "author": "Pratik Tiwari",
   "license": "MIT",

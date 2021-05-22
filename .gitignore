@@ -1,2 +1,9 @@
 .env
 node_modules/
+
+
+/build
+
+.env
+
+/frontend/build
