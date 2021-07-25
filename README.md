@@ -23,7 +23,7 @@ An Real-time Scallable Ecommerce website made with React /  React-Router / Redux
 - Deployement on GCP.
 - To add animation in the website
 
-## Client View:
+## Customer View:
 ![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN/blob/master/gifs/client-view.gif)
 
 ## Admin View:
