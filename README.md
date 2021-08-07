@@ -20,8 +20,9 @@ An Real-time Scallable Ecommerce website made with React /  React-Router / Redux
 
 
 ### Future update plans:
-- Deployement on GCP.
 - To add animation in the website
+- UPI integration.
+- add new features 
 
 ## Customer View:
 ![Image](https://github.com/pratiktiwari1212/Ecommerce-website-MERN/blob/master/gifs/client-view.gif)
